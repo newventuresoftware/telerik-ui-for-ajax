@@ -148,14 +148,8 @@
     <Content Include="App_Data\RadSpell\fr-FR.tdf" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="MyForest\ComboBox.MyForest.css" />
-    <Content Include="MyForest\DataPager.MyForest.css" />
-    <Content Include="MyForest\DropDownList.MyForest.css" />
-    <Content Include="MyForest\Grid.MyForest.css" />
-    <Content Include="MyForest\Input.MyForest.css" />
-    <Content Include="MyForest\Menu.MyForest.css" />
     <Content Include="web.config" />
-    <Content Include="MyForest\variables.scss" />
+    <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
     <None Include="web.Debug.config">
       <DependentUpon>web.config</DependentUpon>
     </None>
@@ -197,7 +191,7 @@
           <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
         </WebProjectProperties>
       </FlavorProperties>
-      <UserProperties UseJQuerySupport="True" UseAjaxifiedTemplates="True" />
+      <UserProperties UseAjaxifiedTemplates="True" UseJQuerySupport="True" />
     </VisualStudio>
   </ProjectExtensions>
 </Project>
