@@ -11,7 +11,7 @@ using System.Web.UI.HtmlControls;
 using Telerik.Web.UI;
 using Telerik.Web.Device.Detection;
 
-public partial class Default : System.Web.UI.Page 
+public partial class DefaultForm : System.Web.UI.Page 
 {
     protected void Page_Load(object sender, EventArgs e)
     {

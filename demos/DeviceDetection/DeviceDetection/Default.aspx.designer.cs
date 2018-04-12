@@ -9,7 +9,7 @@
 
 
 
-public partial class Default {
+public partial class DefaultForm {
     
     /// <summary>
     /// RadStyleSheetManager1 control.
